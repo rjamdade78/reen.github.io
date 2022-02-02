@@ -292,9 +292,10 @@ a:active{
 	padding: 14px 12px;
 	width: 100%;
 	border: 0px;
-	border-style: none;
+	/* border-style: none; */
 	border-radius: 5px;
 	position: relative;
+	outline: none;
 }
 .subscribe{
 	padding: 10px 10px;
@@ -303,12 +304,12 @@ a:active{
 	border-radius: 5px;
 	border: 0px;
 	position: absolute;
-	    transform: translate(175px, -40px);
-		color: #fff;
-		font-size: 13px;
-		font-weight: bold;
-		text-transform: uppercase;
-		font-family: 'Source Sans Pro', sans-serif;
+	transform: translate(175px, -40px);
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .subscribe:hover{
 	color: #00bc9c;
@@ -342,4 +343,5 @@ body{
 	border-radius: 5px;
 	color: #939aa2;
 	position: fixed;
+	cursor: pointer;
 }

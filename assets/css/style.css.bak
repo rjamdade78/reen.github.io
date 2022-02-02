@@ -55,6 +55,11 @@ a:active{
 	text-transform: uppercase;
 	cursor: pointer;
 	border-radius: 5px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.btn:hover{
+	color: #00bc9c;
+	background-color: #fff;
 }
 /* ----------------header section-------------- */
 
@@ -103,7 +108,7 @@ a:active{
 }
 .contact li{
 	list-style: none;
-	margin: 0px 5px;
+	margin-right: 10px;
 	display: inline-block;
 	font-family: 'Source Sans Pro', sans-serif;
 	
@@ -111,7 +116,7 @@ a:active{
 .contact li a{
 	font: 12px;
 	color: #506a85;
-	padding: 0px 5px;
+	padding-right: 4px;
 }
 
 .navigation{
@@ -135,6 +140,7 @@ a:active{
 	font-weight: bold;
 	padding: 6px;
 	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .search-icon li{
 	list-style: none;
@@ -156,14 +162,17 @@ a:active{
     transform: translate(-50%, -50%);
 }
 .sec-heading{
-	font-size: 78px;
+	font-size: 62px;
 	color: #fff;
-	/* text-transform: uppercase; */
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
 }
 .sec-para{
 	font-size: 16px;
 	color: #a3b1bf;
 	font-weight: lighter;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .beautiful{
@@ -175,23 +184,26 @@ a:active{
 	font-size: 44px;
 	text-transform: capitalize;
 	margin-bottom: 36px;
+	font-family: 'Lato', sans-serif;
 }
 .sec-para2{
-	font-size: 22px;
+	font-size: 21px;
 	color: #73879c;
 	line-height: 1.5;
+	font-family: 'Source Sans Pro', sans-serif;
 	
 }
 .sec-heading3{
 	color: #506a85;
 	font-size: 26px;
 	margin-bottom: 32px;
-	
+	font-family: 'Lato', sans-serif;
 }
 .sec-para3{
 	font-size: 16px;
 	color: #73879c;
 	font-weight: lighter;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .icon i{
 	font-size: 60px;
@@ -218,19 +230,27 @@ a:active{
 	font-size: 20px;
 	font-weight: bold;
 	color: #506a85;
+	font-family: 'Lato', sans-serif;
 }
 .label{
 	font-size: 14px;
 	font-weight: lighter;
 	color: #73879c;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .dot{
 	height: 15px;
 	width: 15px;
 	border-radius: 25px;
-	background-color: #00bc9c;
+	background-color: inset 0 0 0 #000;
 	display: inline-block;
+	cursor: pointer;
 }
+.dot:hover{
+	/* background-color: #00bc9c;	 */
+	box-shadow: inset 88px 0 0 0 #000;
+}
+
 .work{
 	padding: 130px 0px;
 }
@@ -245,6 +265,7 @@ a:active{
 	font-weight: bold;
 	color: #fff;
 	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
 }
 .f-list li:last-child{
 	margin-bottom: 25px
@@ -253,21 +274,24 @@ a:active{
 	list-style: none;
 }
 .f-list li a{
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: lighter;
 	color: #a3b1bf;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .about-us li a{
 	font-size: 14px;
 	font-weight: bold;
 	color: #a3b1bf;
+	font-family: 'Lato', sans-serif;
 }
 .f-img li, .f2-info li, .f2-info2 li{
 	list-style: none;
 	display: inline-block;
 }
 .f-searchbar input{
-	padding: 14px 107px 12px 12px;
+	padding: 14px 12px;
+	width: 100%;
 	border: 0px;
 	border-style: none;
 	border-radius: 5px;
@@ -280,11 +304,16 @@ a:active{
 	border-radius: 5px;
 	border: 0px;
 	position: absolute;
-	    transform: translate(189px, -39px);
+	    transform: translate(175px, -40px);
 		color: #fff;
 		font-size: 13px;
 		font-weight: bold;
 		text-transform: uppercase;
+		font-family: 'Source Sans Pro', sans-serif;
+}
+.subscribe:hover{
+	color: #00bc9c;
+	background-color: #fff;
 }
 .footer2{
 	padding: 35px 0px;
@@ -294,6 +323,7 @@ a:active{
 	font-size: 14px;
 	font-weight: lighter;
 	color: #707e8c;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .f2-info2 li a:last-child {
 	padding-right: 0px;
